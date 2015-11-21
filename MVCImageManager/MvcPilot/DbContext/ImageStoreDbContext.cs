@@ -13,12 +13,14 @@ namespace MvcPilot.DbContext
         {
         }
 
+        
+
         public DbSet<ImageStore> ImageStores { get; set; }
 
-        protected override void OnModelCreating(DbModelBuilder modelBuilder)
+    /*    protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             // base.OnModelCreating(modelBuilder);
             modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();
-        }
+        }*/
     }
 }

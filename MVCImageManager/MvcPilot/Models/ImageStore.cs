@@ -8,7 +8,7 @@
         /// <summary>
         /// 主键
         /// </summary>
-        public  int ImageStore_nbr { get; set; }
+        public  int ID { get; set; }
 
         /// <summary>
         /// 图片名称

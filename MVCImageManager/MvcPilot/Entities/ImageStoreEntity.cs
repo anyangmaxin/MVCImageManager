@@ -11,7 +11,7 @@ namespace MvcPilot.Entities
         public IEnumerable<ImageStore> GetAll()
         {
            
-            return imageStoreDbContext.ImageStores.ToList();
+            return imageStoreDbContext.ImageStores;
         }
 
         public void Inset(ImageStore imageStore)

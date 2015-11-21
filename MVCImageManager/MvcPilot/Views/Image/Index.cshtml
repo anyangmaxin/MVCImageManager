@@ -1,0 +1,62 @@
+﻿@model IEnumerable<MvcPilot.Models.ImageStore>
+@{
+    ViewBag.Title = "Index";
+}
+<style>
+    div, span, font, a, td {
+        font-size: 13px;
+    }
+
+    table {
+        border-collapse: collapse;
+        border-spacing: 0;
+        border-left: 1px solid #aaa;
+        border-top: 1px solid #aaa;
+        background: #efefef;
+    }
+
+    th {
+        border-right: 1px solid #888;
+        border-bottom: 1px solid #888;
+        padding: 3px 15px;
+        text-align: center;
+        font-weight: bold;
+        background: #ccc;
+        font-size: 13px;
+    }
+
+    td {
+        border-right: 1px solid #888;
+        border-bottom: 1px solid #888;
+        padding: 3px 15px;
+        text-align: center;
+        color: #3C3C3C;
+    }
+</style>
+
+<h2>Index</h2>
+
+<div style="width: 800px">
+    <table style="width: 100%">
+        <tr>
+            <td valign="top">
+                <fieldset style="text-align: left">
+                    <legend>上传：</legend>
+                    @using (Html.BeginForm("UploadFile", "Image", FormMethod.Post))
+                    {
+                        <input type="file" name="filename" id="file1" />
+                            <input type="submit" value="Submit" />
+                    }
+                
+                </fieldset>
+            </td>
+            <td>
+                <fieldset>
+                    <legend>预览</legend>
+                    <img id="img1" src="" alt="" style="width: 200px;height: 160px"/>
+                </fieldset>
+                
+            </td>
+        </tr>
+    </table>
+</div>
