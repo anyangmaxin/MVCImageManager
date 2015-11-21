@@ -30,3 +30,4 @@ E:\GitHub\MVCImageManager\MVCImageManager\MvcPilot\bin\System.Web.Helpers.xml
 E:\GitHub\MVCImageManager\MVCImageManager\MvcPilot\bin\System.Web.Mvc.xml
 E:\GitHub\MVCImageManager\MVCImageManager\MvcPilot\obj\Debug\MvcPilot.dll
 E:\GitHub\MVCImageManager\MVCImageManager\MvcPilot\obj\Debug\MvcPilot.pdb
+E:\GitHub\MVCImageManager\MVCImageManager\MvcPilot\obj\Debug\MvcPilot.csprojResolveAssemblyReference.cache
